@@ -59,6 +59,7 @@ void printMatrix(int matrix[][nV]) {
 
 int main() {
 float t1,t2;
+omp_set_num_threads(4);
   generate_matrix(graph);
 t1 = omp_get_wtime();
   floydWarshall(graph);
