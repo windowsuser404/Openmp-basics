@@ -3,7 +3,7 @@
 #include <stdio.h>
 #include <omp.h>
 // defining the number of vertices
-#define nV 100
+#define nV 1000
 
 #define INF 999
 int graph[nV][nV],i, j, k;

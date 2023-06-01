@@ -14,7 +14,6 @@ t1 = omp_get_wtime();
 for (i=0;i<size;i++)
 	sum+=arr[i];
 t2 = omp_get_wtime();
-printf("%d\n",sum);
-printf("%g\n",t2-t1);
+printf("Serial time is%g\n",t2-t1);
 }
 
